@@ -91,7 +91,9 @@ app.use((req, res) => {
 //error handler
 app.use(errorHandler);
 
-
+app.get("/test", (req, res) => {
+  res.send("API working correctly ✅");
+});
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 }); 
