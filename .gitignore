@@ -1,0 +1,11 @@
+# Node.js & Express (Api)
+Api/node_modules/
+
+# React (ems)
+ems/node_modules/
+
+# General
+*.log
+.env.local
+.DS_Store
+.env
